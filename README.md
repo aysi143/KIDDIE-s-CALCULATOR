@@ -1,5 +1,6 @@
 ## KIDDIE-s-CALCULATOR
-                                  visit my website here: [www.aysi.me](https://www.aysi.me)
+                                  visit my website here:
+                                  www.aysi.me
 I made this calculator just to teach my students about the JavaScript functionality and interfacing.
 ### yo can follow me on instagram or any of these
 [Instagram](https://instagram.com/ic.dev1001)
