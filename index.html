@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KIddie --Calculator</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <!--Calculator body-->
+<header class="header-body">
+       <form class="form" name="calc">
+           <input type="text" name="result" id="result_area" placeholder="  00000">
+       <br>
+           <table>
+               <tr>
+                   <input class="btn" type="button" value="C" onclick="clean()">
+                   <input class="btn" type="button" value="<" onclick="back()">
+                   <input class="btn" type="button" value="%" onclick="getVal('%')">
+                   <input class="btn" type="button" value="(" onclick="getVal('(')">
+               </tr>
+               <br>
+               <tr>
+                <input class="btn" type="button" value="9" onclick="getVal(9)">
+                <input class="btn" type="button" value="8" onclick="getVal(8)">
+                <input class="btn" type="button" value="7" onclick="getVal(7)">
+                <input class="btn" type="button" value=")" onclick="getVal(')')">
+            </tr>
+            <br>
+            <tr>
+                <input class="btn"  type="button" value="6" onclick="getVal(6)">
+                <input class="btn" type="button" value="5" onclick="getVal(5)">
+                <input class="btn" type="button" value="4" onclick="getVal(4)">
+                <input class="btn" type="button" value="^" onclick="getVal('**')">
+            </tr>
+            <br>
+            <tr>
+                <input class="btn" type="button" value="3" onclick="getVal(3)">
+                <input class="btn" type="button" value="2" onclick="getVal(2)">
+                <input class="btn" type="button" value="1" onclick="getVal(1)">
+                <input class="btn" type="button" value="00" onclick="getVal('00')">
+            </tr>
+            <br>
+            <tr> <td>
+                <input class="btn" type="button" value="=" onclick="equal()">
+                <input class="btn" type="button" value="*" onclick="getVal('*')">
+                <input class="btn" type="button" value="-" onclick="getVal('-')">
+                <input class="btn" type="button" value="/" onclick="getVal('/')">
+                </td>
+                <td><input style="width: 100px; height: 70px;" class="btn" type="button" value="+" onclick="getVal('+')"></td>
+            </tr>
+           </table>
+       </form>
+</header>
+
+<!--our js connection for calculator functionality-->
+<script src="app.js"></script>    
+</body>
+</html>

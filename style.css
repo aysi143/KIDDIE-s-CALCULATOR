@@ -1,0 +1,49 @@
+/* resetting browser default values */
+
+*{
+    padding: 0;
+    margin:0;
+}
+
+/* styling the main header body */
+.header-body{
+    
+    background: lightblue;
+    width:100%;
+    height: 60vh;
+
+}
+
+/* styling the result input area */
+#result_area{
+    width: 80%;
+    border-radius: 10px;
+    font-size: large;
+}
+
+/* styling all inputs except the result area */
+input{
+    margin: 5px;
+    width: 50px;
+    height: 31px;
+    cursor: pointer;
+}
+
+/* styling the button capablities for a sa */
+.btn{
+    color: rgb(255, 255, 255);
+    background: rgb(23, 7, 112);
+    border-radius: 20px;
+    border-bottom: solid 5px rgb(119, 124, 150);
+    font-size: 20px;
+}
+
+/* styling the whole form view */
+form{
+    border-bottom: solid 10px lightblue;
+    background: linear-gradient(90deg, hsla(33, 100%, 53%, 1) 0%, hsla(58, 100%, 68%, 1) 100%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
